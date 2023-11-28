@@ -10,6 +10,8 @@
  
  Design:
  - [x] Arena
+ - [ ] Pixelation
+ - [ ] Cel-Shading
  
  Enemies:
  - [x] Skull-Swarm
@@ -19,7 +21,7 @@
  - [x] Gun
  - [x] Orbs, dropped by dead enemys
    to upgrade the fire speed
- - [ ] Mini dash
- - [ ] Strave running!
+ - [X] Dash
+ - [x] Strave running!
  - [ ] Animations
  - [x] Destroyable spawns
