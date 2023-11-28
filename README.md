@@ -16,10 +16,10 @@
  - [ ] Monster/Demon
  
  Features:
- - [x] Gun - DONE
+ - [x] Gun
  - [x] Orbs, dropped by dead enemys
-   to upgrade the fire speed - DONE
- - [ ] Mini dash -
- - [ ] Strave running! -
+   to upgrade the fire speed
+ - [ ] Mini dash
+ - [ ] Strave running!
  - [ ] Animations
  - [x] Destroyable spawns
