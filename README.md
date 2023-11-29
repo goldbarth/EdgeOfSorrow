@@ -11,11 +11,11 @@
  Design:
  - [x] Arena
  - [ ] Pixelation
- - [ ] Cel-Shading
+ - [x] Cel-Shading
  
  Enemies:
- - [x] Skull-Swarm
- - [ ] Monster/Demon
+ - [x] Skull-Swarm/Puppet Heads
+ - [x] Monster/Demon/Skeleton
  
  Features:
  - [x] Gun
