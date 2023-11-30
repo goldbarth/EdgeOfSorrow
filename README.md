@@ -25,3 +25,13 @@
  - [x] Strave running!
  - [ ] Animations
  - [x] Destroyable spawns
+ 
+ 
+ unreal ui - motion graphics
+ menu system
+ behavior tree - 
+ sound design
+ balancing
+ game loop?
+ 
+ 
