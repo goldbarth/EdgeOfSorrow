@@ -5,12 +5,11 @@
  
  Overhead:
  - (Fast-pace), retro, shooter
- - Perma Death
- - 1 HP / One hit death
+ - Perma Death / One hit death
  
  Design:
  - [x] Arena
- - [ ] Pixelation
+ - [x] Pixelation
  - [x] Cel-Shading
  
  Enemies:
