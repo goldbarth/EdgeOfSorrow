@@ -1,6 +1,6 @@
 (Abyss) Edge of Sorrow
 =============
-*Fast-Pace, Retro, Shooter. Blueprint Prototype.*
+*Fast-Pace, Hardcore Retro, Shooter. Blueprint Prototype.*
 ---------------
  
  Overhead:
@@ -13,24 +13,25 @@
  - [x] Cel-Shading
  
  Enemies:
- - [x] Skull-Swarm/Puppet Heads
  - [x] Monster/Demon/Skeleton
+ - [x] Skull-Swarm/Puppet Heads
  
  Features:
  - [x] Gun
+ - [X] Dash
+ - [ ] Cinematic Animations
+ - [x] Strave running!
+ - [x] Destroyable spawns
  - [x] Orbs, dropped by dead enemys
    to upgrade the fire speed
- - [X] Dash
- - [x] Strave running!
- - [ ] Animations
- - [x] Destroyable spawns
+ - [x] Upgrade/Weapon HUD elements (Fillbar)
  
  
- unreal ui - motion graphics
- menu system
- behavior tree - 
- sound design
- balancing
- game loop?
+ - [x] UMG (Unreal Motion Graphics)
+ - [ ] Menu System
+ - [ ] Behavior Tree - Swarm Behavior (Flocking)
+ - [ ] Sound Design
+ - [ ] Balancing
+ - [ ] Game Loop?
  
  
