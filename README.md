@@ -1,6 +1,6 @@
 (Abyss) Edge of Sorrow
 =============
-*Fast-Pace, Hardcore Retro, Shooter. Blueprint Prototype.*
+*Fast-Pace, Hardcore, Retro, Shooter. Blueprint Prototype.*
 ---------------
  
  Overhead:
@@ -26,11 +26,12 @@
    to upgrade the fire speed
  - [x] Upgrade/Weapon HUD elements (Fillbar)
  
+ ---------------
  
  - [x] UMG (Unreal Motion Graphics)
- - [ ] Menu System
+ - [x] Menu System
  - [ ] Behavior Tree - Swarm Behavior (Flocking)
- - [ ] Sound Design
+ - [x] Sound Design
  - [ ] Balancing
  - [ ] Game Loop?
  
