@@ -33,6 +33,6 @@
  - [ ] Behavior Tree - Swarm Behavior (Flocking)
  - [x] Sound Design
  - [ ] Balancing
- - [ ] Game Loop?
+ - [x] Game Loop? 🫠
  
  
