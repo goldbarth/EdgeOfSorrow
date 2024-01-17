@@ -2,11 +2,12 @@
 
 #pragma once
 
+#include "Misc/Guid.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "AItem.generated.h"
 
-UCLASS()
+UCLASS( Blueprintable  )
 class EDGEOFSORROW_API AItem : public AActor
 {
 	GENERATED_BODY()
@@ -14,9 +15,11 @@ class EDGEOFSORROW_API AItem : public AActor
 public:
 	// Sets default values for this actor's properties
 	AItem();
-
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
 	FString ItemID;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
+	FString ItemName;
 
 protected:
 	// Called when the game starts or when spawned
