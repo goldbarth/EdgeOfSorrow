@@ -15,11 +15,6 @@ class EDGEOFSORROW_API AItem : public AActor
 public:
 	// Sets default values for this actor's properties
 	AItem();
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
-	FString ItemID;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
-	FString ItemName;
 
 protected:
 	// Called when the game starts or when spawned
@@ -28,4 +23,10 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
+	FString ItemID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
+	FString ItemName;
 };

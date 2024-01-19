@@ -1,0 +1,65 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#include "ABaseProjectile.h"
+
+// Sets default values
+ABaseProjectile::ABaseProjectile()
+{
+ 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
+	if(!RootComponent)
+	{
+		RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("ProjectileSceneComponent"));
+	}
+
+	if (!ProjectileMovementComponent)
+	{
+		// Use this component to drive this projectile's movement.
+		ProjectileMovementComponent = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileMovementComponent"));
+		ProjectileMovementComponent->SetUpdatedComponent(CollisionComponent);
+		ProjectileMovementComponent->InitialSpeed = 3000.0f;
+		ProjectileMovementComponent->MaxSpeed = 3000.0f;
+		ProjectileMovementComponent->bRotationFollowsVelocity = true;
+		ProjectileMovementComponent->bShouldBounce = true;
+		ProjectileMovementComponent->Bounciness = 0.3f;
+		ProjectileMovementComponent->ProjectileGravityScale = 0.0f;
+	}
+
+	InitialLifeSpan = 3.0f;
+}
+
+void ABaseProjectile::InitializeMeshComponent_Implementation()
+{
+}
+
+void ABaseProjectile::InitializeCollisionComponent_Implementation()
+{
+	// // Ensure the mesh component is already initialized
+	// if (!ProjectileMeshComponent)
+	// {
+	// 	InitializeMeshComponent();
+	// }
+	//
+	// // Create a new collision component
+	// CollisionComponent = NewObject<UShapeComponent>(this, UShapeComponent::StaticClass(), TEXT("ProjectileCollisionComponent"));
+	// if (CollisionComponent)
+	// {
+	// 	// Set the collision component as the root (if desired)
+	// 	CollisionComponent->SetupAttachment(RootComponent);
+	//
+	// 	// Adjust the size and shape of the collision component to match the mesh
+	// 	// This is a simplistic example using a bounding box
+	// 	FBoxSphereBounds MeshBounds = ProjectileMeshComponent->CalcBounds(ProjectileMeshComponent->GetComponentTransform());
+	// 	CollisionComponent->SetWorldScale3D(MeshBounds.GetBox().GetExtent());
+	//
+	// 	// Register the component with the actor
+	// 	CollisionComponent->RegisterComponent();
+	// }
+}
+
+void ABaseProjectile::FireDirection(const FVector& ShootDirection)
+{
+	ProjectileMovementComponent->Velocity = ShootDirection * ProjectileMovementComponent->InitialSpeed;
+}
+
