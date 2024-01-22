@@ -35,27 +35,6 @@ void ABaseProjectile::InitializeMeshComponent_Implementation()
 
 void ABaseProjectile::InitializeCollisionComponent_Implementation()
 {
-	// // Ensure the mesh component is already initialized
-	// if (!ProjectileMeshComponent)
-	// {
-	// 	InitializeMeshComponent();
-	// }
-	//
-	// // Create a new collision component
-	// CollisionComponent = NewObject<UShapeComponent>(this, UShapeComponent::StaticClass(), TEXT("ProjectileCollisionComponent"));
-	// if (CollisionComponent)
-	// {
-	// 	// Set the collision component as the root (if desired)
-	// 	CollisionComponent->SetupAttachment(RootComponent);
-	//
-	// 	// Adjust the size and shape of the collision component to match the mesh
-	// 	// This is a simplistic example using a bounding box
-	// 	FBoxSphereBounds MeshBounds = ProjectileMeshComponent->CalcBounds(ProjectileMeshComponent->GetComponentTransform());
-	// 	CollisionComponent->SetWorldScale3D(MeshBounds.GetBox().GetExtent());
-	//
-	// 	// Register the component with the actor
-	// 	CollisionComponent->RegisterComponent();
-	// }
 }
 
 void ABaseProjectile::FireDirection(const FVector& ShootDirection)
