@@ -13,24 +13,24 @@
  - [x] Cel-Shading
  
  Enemies:
- - [x] Monster/Demon/Skeleton
+ - [x] Monster/Beast/Skeleton
  - [x] Skull-Swarm/Puppet Heads
  
  Features:
- - [x] Gun
  - [X] Dash
- - [ ] Cinematic Animations
  - [x] Strave running!
  - [x] Destroyable spawns
  - [x] Orbs, dropped by dead enemys
    to upgrade the fire speed
  - [x] Upgrade/Weapon HUD elements (Fillbar)
+ - [x] Coins to earn in arena
+ - [x] Currency to buy items in shop
+ - [x] 5 Weapons, Exoskeleton and a Force Shield
  
  ---------------
  
  - [x] UMG (Unreal Motion Graphics)
  - [x] Menu System
- - [ ] Behavior Tree - Swarm Behavior (Flocking)
  - [x] Sound Design
  - [ ] Balancing
  - [x] Game Loop? 🫠
