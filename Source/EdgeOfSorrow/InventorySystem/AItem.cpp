@@ -3,6 +3,8 @@
 
 #include "AItem.h"
 
+#include "EdgeOfSorrow/Character/ABaseFirstPersonCharacter.h"
+
 
 // Sets default values
 AItem::AItem()
@@ -14,16 +16,32 @@ AItem::AItem()
 	ItemID = Guid.ToString();
 }
 
-// Called when the game starts or when spawned
 void AItem::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	CastAndSetOwner();
 }
 
-// Called every frame
 void AItem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 }
+
+void AItem::CastAndSetOwner()
+{
+	AABaseFirstPersonCharacter* CastedOwner = Cast<AABaseFirstPersonCharacter>(GetOwner());
+	
+	if (CastedOwner != nullptr)
+	{
+		ItemOwner = CastedOwner;
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("AItem::CastAndSetOwner: Owner ist kein AABaseFirstPersonCharacter."));
+	}
+}
+
+
+
 

@@ -4,6 +4,7 @@
 
 #include "Misc/Guid.h"
 #include "CoreMinimal.h"
+#include "EdgeOfSorrow/Character/ABaseFirstPersonCharacter.h"
 #include "GameFramework/Actor.h"
 #include "AItem.generated.h"
 
@@ -13,20 +14,22 @@ class EDGEOFSORROW_API AItem : public AActor
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this actor's properties
 	AItem();
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 public:
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
+	AABaseFirstPersonCharacter* ItemOwner;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
 	FString ItemID;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
 	FString ItemName;
+	
+	void CastAndSetOwner();
 };

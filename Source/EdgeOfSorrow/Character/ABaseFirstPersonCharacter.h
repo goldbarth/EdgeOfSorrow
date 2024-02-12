@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "EdgeOfSorrow/Projectiles/ABaseProjectile.h"
 #include "GameFramework/Character.h"
 #include "ABaseFirstPersonCharacter.generated.h"
 
@@ -18,13 +17,6 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditDefaultsOnly, Category = Projectile)
-	TSubclassOf<ABaseProjectile> ProjectileClass;
-
 public:	
 	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
 };
