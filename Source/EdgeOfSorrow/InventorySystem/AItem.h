@@ -4,7 +4,6 @@
 
 #include "Misc/Guid.h"
 #include "CoreMinimal.h"
-#include "EdgeOfSorrow/Character/ABaseFirstPersonCharacter.h"
 #include "GameFramework/Actor.h"
 #include "AItem.generated.h"
 
@@ -21,15 +20,10 @@ protected:
 
 public:
 	virtual void Tick(float DeltaTime) override;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
-	AABaseFirstPersonCharacter* ItemOwner;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
 	FString ItemID;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
 	FString ItemName;
-	
-	void CastAndSetOwner();
 };

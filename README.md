@@ -1,38 +1,51 @@
-(Abyss) Edge of Sorrow
-=============
-*Fast-Pace, Hardcore, Retro, Shooter. Blueprint Prototype.*
----------------
- 
- Overhead:
- - (Fast-pace), retro, shooter
- - Perma Death / One hit death
- 
- Design:
- - [x] Arena
- - [x] Pixelation
+# Edge of Sorrow 
+
+## *Fast-Pace, Hardcore, Retro, Arena-Shooter.*
+
+
+### Description:
+ - Fast-pace, Hardcore, Shooter
+ - Perma-Death / Rouge-Like
+
+### Design:
+ - [x] Arena-Style
  - [x] Cel-Shading
- 
- Enemies:
+ - [x] Pixelation
+ - [x] Shadow/Darkness
+ - [x] Retro-Style
+ - [x] Fun elements
+
+###  Enemies:
  - [x] Monster/Beast/Skeleton
  - [x] Skull-Swarm/Puppet Heads
- 
- Features:
+ - [ ] Spawn-Wave System
+
+### Features:
  - [X] Dash
  - [x] Strave running!
  - [x] Destroyable spawns
- - [x] Orbs, dropped by dead enemys
+ - [x] 5 Weapons (5 Projectile Types)
+ - [x] Orbs, dropped by dead enemies
    to upgrade the fire speed
- - [x] Upgrade/Weapon HUD elements (Fillbar)
  - [x] Coins to earn in arena
  - [x] Currency to buy items in shop
- - [x] 5 Weapons, Exoskeleton and a Force Shield
+ - [x] Upgrade/Weapon HUD elements (Fillbars)
+ - [x] Exoskeleton (Activates the dash ability)
+ - [x] Force Shield (Breaks after a 5 hits)
+ - [x] Spawanable Exit Portal
+
+
  
  ---------------
- 
- - [x] UMG (Unreal Motion Graphics)
+ UI Elements
+ ---------------
+
  - [x] Menu System
- - [x] Sound Design
- - [ ] Balancing
- - [x] Game Loop? 🫠
+ - [x] Shop System
+ - [x] HUD System
+
+
+
+
  
  
