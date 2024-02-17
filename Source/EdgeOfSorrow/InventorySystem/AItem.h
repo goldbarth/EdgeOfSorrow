@@ -21,7 +21,7 @@ protected:
 public:
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Items")
 	FString ItemID;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Items")
