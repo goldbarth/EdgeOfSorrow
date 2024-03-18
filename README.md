@@ -1,15 +1,29 @@
 # Edge of Sorrow 
 
-## *Fast-Pace, Hardcore, Retro, Arena-Shooter.*
+## *Fast-Pace, Hardcore, Retro, Single-Player, Arena-Shooter.*
 
+## Images
+
+### *Main Menu*
 ![Main Menu Screen](https://github.com/goldbarth/EdgeOfSorrow/blob/main/Images/EdgeOfSorrowMainScreen.png "Main Menu")
 
-![Main Menu Options Screen](https://github.com/goldbarth/EdgeOfSorrow/blob/main/Images/EdgeOfSorrowOptionsScreen.png "Main Menu Options")
-
+### *Shop Menu*
 ![Shop Menu Screen](https://github.com/goldbarth/EdgeOfSorrow/blob/main/Images/EdgeOfSorrowShopScreen.png "Shop Menu")
 
+## GIF's
+
+### Endgame Gameplay
+
+### *Round Won*
+![Round Won](https://github.com/goldbarth/EdgeOfSorrow/blob/main/GIF's/RoundWon.gif "Round Won")
+
+### *Equalizer Gameplay*
+![Equalizer Gameplay](https://github.com/goldbarth/EdgeOfSorrow/blob/main/GIF's/EqualizerGameplay.gif "Equalizer Gameplay")
+
+## Mini GDD
+
 ### Description:
- - Fast-pace, Hardcore, Shooter
+ - Fast-pace, Hardcore, Shooter, Single-Player
  - Perma-Death / Rouge-Like
 
 ### Design:
